@@ -1,0 +1,57 @@
+header {
+	background: #EEDAE5;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.receitas {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.receitas li {
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	margin: 1.5%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.receitas li:hover {
+	border-color: #CD00CD;
+}
+
+.receitas li:active {
+	border-color: #00BFFF;
+}
+
+.receitas li:hover h2 {
+	font-size: 30px;
+}
+
+.receitas h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
